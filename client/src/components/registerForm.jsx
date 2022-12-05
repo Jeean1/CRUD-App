@@ -44,14 +44,10 @@ const RegisterForm = () => {
       gender,
     };
 
-    console.log(userSelected.id);
-
     if (userSelected.id !== undefined) {
-      console.log("active updated");
       dispatch(updateUserThunk(newUser, userSelected.id));
       reset();
     } else {
-      console.log("active create");
       dispatch(createNewUserThunk(newUser));
       reset();
     }

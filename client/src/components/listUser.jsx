@@ -21,15 +21,11 @@ const ListUser = () => {
       .then((res) => setUsers(res.data.data.users));
   }, [globalUser]);
 
-  console.log(globalUser);
-
   const selectedUser = (user) => {
-    console.log(user);
     dispatch(setUser(user));
   };
 
   const deleteUser = (id) => {
-    console.log(id);
     dispatch(deleteUserThunk(id));
   };
 
