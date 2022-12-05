@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register_container {
+  width: 33%;
+  margin: auto;
+}
+
+.App {
+  width: 90%;
+  margin: 5% auto;
+  display: grid;
+  gap: 20%;
+}
+
+.listuser_container {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 10%;
+}
